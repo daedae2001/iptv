@@ -20,13 +20,6 @@ def layout():
     session.clear()
     return render_template("contenido.html")
 
-@app.route('/actualiza/')
-def actualiza():
-    import descarga
-    import crea_guia_html
-    descarga.ejecuta_descarga()
-    crea_guia_html.crea_grilla()
-    return render_template('premium/home.html')
 @app.route('/tv', methods = ["GET", "POST"])
 def tv():
     act = request.args.get('act', default = 0, type = int)
@@ -41,4 +34,4 @@ def tv():
    
 if __name__ == '__main__':
     app.secret_key = "PFEh8!YR7C&xL4"
-    app.run(debug=True)
+    app.run(debug=False)

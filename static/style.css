@@ -129,7 +129,7 @@ a {
 
 body {
     margin: 0;
-    background-image: url(../img/fondo3.jpg);
+    background-image: url(../fondo3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -180,7 +180,7 @@ body:before {
 
 .home {
     margin: 0;
-    background-image: url(../img/fondo2.jpg);
+    background-image: url(../fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,7 +201,7 @@ body:before {
 
 .home2 {
     margin: 0;
-    background-image: url(../img/portada.jpg);
+    background-image: url(../portada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
