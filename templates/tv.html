@@ -1,0 +1,122 @@
+{% extends 'layout.html' %} {% block title %} Login {% endblock %} {% block content %}
+
+<div class="container">
+
+    <table class="tg">
+        <tr class="titulos">
+            <td>
+
+                <label>Grupos:</label>
+                <div id="div_grupos" width="200"></div>
+                <select id="gruposs" class="gruposs" name="gruposs" width="200" onchange="rellena_lista_canales()">
+                                <option value="cargar_grupos();" >
+                               </select>
+
+
+            </td>
+            <td>
+
+                <label>Canales:</label>
+                <div id="div_canales" width="200">
+                    <select id="canales" class="canales" name="canales" width="200" onchange="cambia_canal()"> 
+                              </select>
+                </div>
+            </td>
+            <td>
+                <label> ----------------------------------------</label>
+                <div width="100">
+                    <button onClick="Alternar(grilla)">Mostrar Guia</button>
+                </div>
+            </td>
+            <td>
+                <label> ----------------------------------------</label>
+                <div width="100">
+                    <a href="/tv?act=1">Actualiza_grilla</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <div id="grilla" width="100%" style="display:none">
+            </div>
+        </tr>
+        <tr>
+            <div id="player">
+
+            </div>
+        </tr>
+    </table>
+</div>
+<script>
+    function rellena_lista_canales() {
+
+        var element = document.getElementById("canales");
+        element.innerHTML = "";
+        var combo = document.getElementById("gruposs");
+        var selected = combo.options[combo.selectedIndex].text;
+        crea_subgrupos(selected)
+
+        for (var i = 0; i < subgrupo.length; i++) {
+            var option = document.createElement("option");
+            option.value = subgrupo[i][0];
+            option.text = subgrupo[i][1];
+            element.appendChild(option);
+        }
+        rellena_tabla_guia()
+        cambia_canal()
+        agrega_clik()
+    }
+
+    function rellena_tabla_guia() {
+
+        var combo = document.getElementById("gruposs");
+        var selected = combo.options[combo.selectedIndex].text;
+        var texto_tabla = '<table id="guia" class="tftable" >';
+
+        for (var i = 0; i < table_grilla.length; i++) {
+
+            if (selected == table_grilla[i][0]) {
+                texto_tabla = texto_tabla + table_grilla[i][3];
+            }
+        }
+        texto_tabla = texto_tabla + '</table>';
+        var element = document.getElementById("grilla");
+        element.innerHTML = texto_tabla;
+    }
+
+    function cargar_grupos() {
+
+        for (var i in grupos) {
+            document.getElementById("gruposs").innerHTML += "<option value='" + grupos[i] + "'>" + grupos[i] + "</option>";
+
+        }
+    }
+    cargar_grupos();
+
+
+    function cambia_canal() {
+
+        const element = document.getElementById("player");
+        element.remove();
+        const player = document.createElement("div");
+        player.id = "player";
+        document.body.appendChild(player);
+
+        var player1 = new Clappr.Player({
+            source: document.getElementById("canales").value,
+            autoPlay: true,
+            height: screen.height - 220,
+            width: screen.width - 20,
+            parentId: "#player"
+        });
+    }
+
+    function agrega_clik() {
+        $("#guia th").click(function() {
+            var id = $(this).html();
+            $('#canales option:contains(' + id + ')').attr('selected', 'selected');
+            cambia_canal();
+            Alternar(grilla);
+        });
+    };
+</script>
+{% endblock %}

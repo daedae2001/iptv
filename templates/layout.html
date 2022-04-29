@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/vars.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/guia.js')}}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <title>"Un portal para ver tv" {% block title %} {% endblock %}</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <a href="/"><label for="" class="logo">Tv</label></a>
+        <ul class="menu-opc">
+            <li>
+                <a href="/tv">Tv </a>
+            </li>
+
+        </ul>
+    </nav>
+
+    {% block content %} {% endblock %}
+</body>
+
+</html>
