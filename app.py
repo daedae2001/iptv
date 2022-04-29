@@ -4,13 +4,7 @@ from os import path
 #from notifypy import Notify #pip install notify-py
 
 app = Flask(__name__)
-"""app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'dae'
-app.config['MYSQL_PASSWORD'] = 'Asd13579+'
-app.config['MYSQL_DB'] = 'iptv'
-app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
-mysql = MySQL(app)
-"""
+
 @app.route('/')
 def home():
     return render_template("contenido.html")    
