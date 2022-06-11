@@ -2,9 +2,8 @@ import requests
 from os import remove
 mylist = [["es.xml", 'https://i.mjh.nz/PlutoTV/es.xml', 'es'],
           ["mx.xml", 'https://i.mjh.nz/PlutoTV/mx.xml', 'mx'],
+          ["sam.xml", 'https://i.mjh.nz/SamsungTVPlus/es.xml', ''],
           ["mv.xml", 'https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml', '']]
-mylist_locales = [["aizzi.xml", 'aizzi.xml', '']]
-
 i = 1
 primera = ""
 otras = ""
@@ -51,12 +50,5 @@ def ejecuta_descarga():
     f.close()
 
 
-    try:
-        f = open('todo.xml', "rb")
-    except IOError as e:
-        print(e.errno, e.message)
-    else:
-        data = f.read()
-        f.close()
 ejecuta_descarga()
 

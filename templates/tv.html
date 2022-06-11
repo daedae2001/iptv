@@ -106,7 +106,44 @@
             autoPlay: true,
             height: screen.height - 220,
             width: screen.width - 20,
-            parentId: "#player"
+            parentId: "#player",
+            plugins: [ClapprNerdStats, ClapprStats, ClapprPIPPlugin, LevelSelector],
+            clapprNerdStats: {
+                // Opcional: proporcione múltiples combinaciones de atajos de teclado para mostrar/ocultar las estadísticas.
+                // Para referencia, visite: https://github.com/ccampbell/mousetrap.
+                // Predeterminado: ['comando+shift+s', 'ctrl+shift+s']
+                shortcut: ['command+shift+s', 'ctrl+shift+s'],
+
+                // Optional: position of the icon to show/hide the statistics.
+                // Values: 'top-right', 'top-left', 'bottom-right', 'bottom-left', 'none'
+                // Default: 'top-right'
+                iconPosition: 'top-right'
+            },
+            emrePluginConfig: {
+                textContent: "daedae emrePluginConfig",
+                //changeDuration: 50000,
+            },
+            actualLiveTime: true,
+            strings: {
+                'es-AR': {
+                    'live': 'VIVO',
+                    'back_to_live': 'VOLVER Al VIVO',
+                    'playback_not_supported': 'Tipo de video no soportado'
+                }
+            },
+
+            language: 'es-AR',
+            mediacontrol: {
+                buttons: "#FF0000",
+                seekbar: "#00ff00",
+            },
+            watermark: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqd-ZjO7XwIGorVFXbCgOTEGAyHEpQd9QqWw&usqp=CAU',
+            watermarkLink: 'http://daedae2001.pythonanywhere.com/tv',
+            position: 'top-right',
+
+
+
+
         });
     }
 
