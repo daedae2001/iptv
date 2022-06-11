@@ -294,18 +294,8 @@ lista_canales =[
 ['Películas_00','TNT_','https://edge2.prepro.cvattv.com.ar/live/vod/TNTHD/SA_Live_WebVTT_FTA/TNTHD.m3u8','TNT','https://upload.wikimedia.org/wikipedia/commons/6/68/Logo_TNT_Series.png'],
 ['Películas_00','WARNER','http://51.79.18.128:8081/LATINO%7CWARNER/LATINO%7CWARNER/playlist.m3u8','WARNER','https://static.wikia.nocookie.net/logopedia/images/5/52/Warner_2018_Amarillo_con_azul.png/revision/latest/scale-to-width-down/220?cb=20200117134449&path-prefix=es'],
 ['Películas_01','Peliculas 12','http://f4.tvxweb.net:8082/24316/video.m3u8?token=MxPReBvRE1','Peliculas 12','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
-['Películas_01','Peliculas 21','http://f4.tvxweb.net:8082/35950/video.m3u8?token=MxPReBvRE1','Peliculas 21','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
-['Películas_01','Peliculas 22','http://f4.tvxweb.net:8082/35951/video.m3u8?token=MxPReBvRE1','Peliculas 22','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
-['Películas_01','Peliculas 23','http://f4.tvxweb.net:8082/35952/video.m3u8?token=MxPReBvRE1','Peliculas 23','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
-['Películas_01','Peliculas 24','http://f4.tvxweb.net:8082/35967/video.m3u8?token=MxPReBvRE1','Peliculas 24','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
-['Películas_01','Peliculas 25','http://f4.tvxweb.net:8082/35968/video.m3u8?token=MxPReBvRE1','Peliculas 25','https://1.bp.blogspot.com/-cK2kQzmu2ak/X-3OhlFHB4I/AAAAAAAAL6M/uFFA9RAQgAcpJDg4UClcvDscVtvuExhwwCLcBGAsYHQ/s0/MAQUETA%2B%25282%2529%2B%25281%2529.png'],
-['Películas_01','Peliculas 26','http://f4.tvxweb.net:8082/35969/video.m3u8?token=MxPReBvRE1','Peliculas 26','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
-['Películas_01','Peliculas 27','http://f4.tvxweb.net:8082/35971/video.m3u8?token=MxPReBvRE1','Peliculas 27','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
-['Películas_01','Peliculas 28','http://f4.tvxweb.net:8082/35972/video.m3u8?token=MxPReBvRE1','Peliculas 28','https://vivotvhd.com/img/cha/1535.gif'],
-['Películas_01','Peliculas 29','http://f4.tvxweb.net:8082/35973/video.m3u8?token=MxPReBvRE1','Peliculas 29','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
 ['Películas_01','Peliculas 30','http://f4.tvxweb.net:8082/35975/video.m3u8?token=MxPReBvRE1','Peliculas 30','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
 ['Películas_01','Peliculas 31','http://f4.tvxweb.net:8082/35976/video.m3u8?token=MxPReBvRE1','Peliculas 31','http://www.totalplay.com.mx/images/logos/canales/hbomax/1.png'],
-['Películas_01','Peliculas 32','http://f4.tvxweb.net:8082/9040/video.m3u8?token=MxPReBvRE1','Peliculas 32','https://img2.freepng.es/20181113/ikc/kisspng-logo-television-channel-short-film-lifetime-tv-channel-website-related-keywords-amp-5beaf7d29a0ab2.640451841542125522631.jpg'],
 ['Películas_02','Cartelera lavozdetucuman','https://srv1.zcast.com.br/lavozdetucuman/lavozdetucuman/playlist.m3u8','Cartelera lavozdetucuman','https://files.elfsightcdn.com/1b1dba53-0d4b-4c1a-a4bd-98e621fa6def/c5736cc5-604c-4600-92bc-de4fafbf1197.png'],
 ['Películas_02','CINE.AR','https://5fb24b460df87.streamlock.net/live-cont.ar/cinear/playlist.m3u8','CINE.AR','https://play.cine.ar/content/images/f675d053.logo_cinear_play.svg'],
 ['Películas_02','EvaRetro','https://stmv2.voxtvhd.com.br/evaretro/evaretro/playlist.m3u8','EvaRetro','https://i2.paste.pics/1fac7deeb4ca257162cde40abd006d9d.png'],
@@ -676,38 +666,9 @@ nombre_canales=[
 'TCM_',
 'TNT_',
 'WARNER',
-'Peliculas 01',
-'Peliculas 02',
-'Peliculas 03',
-'Peliculas 04',
-'Peliculas 05',
-'Peliculas 06',
-'Peliculas 07',
-'Peliculas 08',
-'Peliculas 09',
-'Peliculas 10',
-'Peliculas 11',
 'Peliculas 12',
-'Peliculas 13',
-'Peliculas 14',
-'Peliculas 15',
-'Peliculas 16',
-'Peliculas 17',
-'Peliculas 18',
-'Peliculas 19',
-'Peliculas 20',
-'Peliculas 21',
-'Peliculas 22',
-'Peliculas 23',
-'Peliculas 24',
-'Peliculas 25',
-'Peliculas 26',
-'Peliculas 27',
-'Peliculas 28',
-'Peliculas 29',
 'Peliculas 30',
 'Peliculas 31',
-'Peliculas 32',
 'Cartelera lavozdetucuman',
 'CINE.AR',
 'EvaRetro',
@@ -1077,38 +1038,9 @@ lista_ids=[
 'TCM',
 'TNT',
 'WARNER',
-'Peliculas 01',
-'Peliculas 02',
-'Peliculas 03',
-'Peliculas 04',
-'Peliculas 05',
-'Peliculas 06',
-'Peliculas 07',
-'Peliculas 08',
-'Peliculas 09',
-'Peliculas 10',
-'Peliculas 11',
 'Peliculas 12',
-'Peliculas 13',
-'Peliculas 14',
-'Peliculas 15',
-'Peliculas 16',
-'Peliculas 17',
-'Peliculas 18',
-'Peliculas 19',
-'Peliculas 20',
-'Peliculas 21',
-'Peliculas 22',
-'Peliculas 23',
-'Peliculas 24',
-'Peliculas 25',
-'Peliculas 26',
-'Peliculas 27',
-'Peliculas 28',
-'Peliculas 29',
 'Peliculas 30',
 'Peliculas 31',
-'Peliculas 32',
 'Cartelera lavozdetucuman',
 'CINE.AR',
 'EvaRetro',
@@ -1344,32 +1276,8 @@ programas_lista = programas[0].split('</programme>')
 resultantList = []
 #print(len(canales_lista))
 convert_list_to_set = set(programas_lista)
-"""
-for element in programas_lista:
-    if element not in resultantList:
-        resultantList.append(element)
-
-"""
 
 programas_lista=convert_list_to_set
-"""
-
-for element in canales_lista:
-    if element not in resultantList:
-        resultantList.append(element)
-
-canales_lista=resultantList
-resultantList = []
-print(len(canales_lista))
-print(len(programas_lista))
-for element in programas_lista:
-    if element not in resultantList:
-        resultantList.append(element)
-
-programas_lista=resultantList
-print(len(programas_lista))
-"""
-#del programas_lista[len(programas_lista)-1]
 
 for prog in programas_lista:
     canal_id = extrae(prog, 'channel="', '"')[0]
