@@ -1,6 +1,6 @@
 import requests
 from os import remove
-mylist = [["es.xml", 'https://raw.githubusercontent.com/daedae2001/lista/main/es.xml', 'es'],
+mylist = [["es.xml", 'https://i.mjh.nz/PlutoTV/es.xml', 'es'],
           ["mx.xml", 'https://i.mjh.nz/PlutoTV/mx.xml', 'mx'],
           ["sam.xml", 'https://i.mjh.nz/SamsungTVPlus/es.xml', '']]
 i = 1
